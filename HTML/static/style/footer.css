@@ -1,0 +1,70 @@
+
+footer {
+    background-color: #000c2a;
+    width: 100%;
+}
+
+.grid-footer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.block {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.block input {
+    width: 140px;
+    height: 25px;
+    margin-top: 18px;
+}
+
+.block button {
+    width: 50px;
+    color: #000000;
+    height: 29px;
+
+}
+
+.block button:hover {
+    color: #fe5000;
+}
+
+.block a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.block a:hover{
+    color: #fe5000;
+}
+
+.links {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.links h3 {
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.links a {
+    padding-right: 20px;
+}
+
+@media (max-width: 760px) {
+    .grid-footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
