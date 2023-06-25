@@ -10,6 +10,22 @@
     gap: 20px;
 }
 
+.card {
+    border: 1px solid transparent;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card>a {
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover {
+    border: 1px solid #000c2a;
+    box-sizing: border-box;
+}
+
 .pic-prod {
     display: block;
     width: 100%;
@@ -20,18 +36,23 @@
 
 
 .description {
-    padding: 40px;
+    padding: 10px;
+    text-align: center;
 }
 
-.description h3, p {
+.description h3, p, button {
     font-family: sans-serif;
     font-size: 18px;
 }
 
 .description>h3 {
     margin-top: 0;
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 10px;
+}
+
+.description>button {
+    width: 110px;
+    margin-bottom: 10px;
 }
 
 .description>p {
