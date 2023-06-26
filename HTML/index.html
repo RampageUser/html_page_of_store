@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./static/style/main_contant.css">
         <link rel="stylesheet" href="./static/style/header.css" />
         <link rel="stylesheet" href="./static/style/contant.css">
+        <link rel="stylesheet" href="static/style/pagination.css">
         <link rel="stylesheet" href="./static/style/footer.css">
     </head>
     <body>
@@ -23,8 +24,9 @@
                 <p><a href="#">Category</a></p>
                 <p><a href="#links">Contact</a></p>
                 <input type="search" placeholder="Search the site..." size="30px"/>
-                <button>Search</button>
-                <p><a href="#">Basket</a></p>
+                <button>&#128269</button>
+                <p class="basket"><a href="#">Basket</a></p>
+                <button class="last-btn">&#128465</button>
             </div>
             </nav>
             <div class="container">
@@ -138,12 +140,23 @@
                     </div>
                 </div>
             </div>
+            <div class="pagination">
+                <div class="pag-cont">
+                    <button class="btn-pag1">prev</button>
+                    <ul>
+                        <li class="link-pag active" value="1">1</li>
+                        <li class="link-pag" value="2">2</li>
+                        <li class="link-pag" value="3">3</li>
+                    </ul>
+                    <button class="btn-pag2">next</button>
+                </div>
+            </div>
             <footer>
                 <div class="grid-footer">
                     <div class="block">
                         <h2>Sing up & get 10% off</h2>
                         <input type="email" placeholder="email">
-                        <button value="sing-up" type="submit">Sing ip</button>
+                        <button value="sing-up" type="submit">Sing up</button>
                     </div>
 
                     <div class="block">
