@@ -14,6 +14,8 @@
     border: 1px solid transparent;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    transition: all .5s;
+
 }
 
 .card>a {
@@ -23,7 +25,7 @@
 
 .card:hover {
     border: 1px solid #000c2a;
-    box-sizing: border-box;
+    box-shadow: 10px 5px 5px #fe5000;
 }
 
 .pic-prod {
@@ -70,5 +72,9 @@
 @media (max-width: 530px) {
     .grid {
         grid-template-columns: 1fr;
+    }
+
+    .description h3, p, button {
+        font-size: 16px;
     }
 }
