@@ -15,7 +15,6 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     transition: all .5s;
-
 }
 
 .card>a {
@@ -25,7 +24,7 @@
 
 .card:hover {
     border: 1px solid #000c2a;
-    box-shadow: 10px 5px 5px #fe5000;
+    box-shadow: 10px 5px 5px black;
 }
 
 .pic-prod {
@@ -55,6 +54,12 @@
 .description>button {
     width: 110px;
     margin-bottom: 10px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.description>button:hover {
+    box-shadow: black 5px 5px 5px;
 }
 
 .description>p {

@@ -42,11 +42,14 @@ nav button {
     margin-right: 5px;
     border-radius: 50px;
     transition: all .5s;
+    border: none;
 }
 
 nav button:hover {
     background-color: #fe5000;
     cursor: pointer;
+    /* border: 1px solid black; */
+    box-shadow: #000c2a 5px 5px 5px;
 }
 
 .last-btn {
