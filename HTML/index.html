@@ -6,6 +6,7 @@
         <meta name="keywords" content="test-project">
         <meta name="description" content="this is page for test development">
         <title>Street shoes</title>
+        <script src="https://kit.fontawesome.com/2e3d04716c.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./static/style/main_contant.css">
         <link rel="stylesheet" href="./static/style/header.css" />
         <link rel="stylesheet" href="./static/style/contant.css">
@@ -14,21 +15,23 @@
     </head>
     <body>
         <div class="main-container">
-            <nav>
-            <div class="lnav-cont">
-                <img src="./static/images/icon.png" alt="Logo">
-                <p><a class="name" href="index.html">Nut's story</a></p>
-            </div>
-            <div class="rnav-cont">
-                <p><a href="index.html">Home</a></p>
-                <p><a href="#">Category</a></p>
-                <p><a href="#links">Contact</a></p>
-                <input type="search" placeholder="Search the site..." size="30px"/>
-                <button>&#128269</button>
-                <p class="basket"><a href="#">Basket</a></p>
-                <button class="last-btn">&#128465</button>
-            </div>
-            </nav>
+            <header>
+                <ul>
+                    <li><img class="logo" src="/static/images/icon.png" alt="Logo"></li>
+                    <li class="title"><a href="#">iStore</a></li>
+                </ul>
+                <nav>
+                    <ul>
+                        <li><a class="navbar" href="#">Category &blacktriangledown;</a>
+                            <ul>
+                                <li><a class="navbar" href="#">point of menu</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="navbar" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
             <div class="container">
                 <div class="grid">
                     <div   div class="card">
